@@ -1,0 +1,36 @@
+$accent-color: #FEA100;
+$accent-link: #adb2b7;
+$basic-color: #5C6369;
+$title-color: #14141d;
+$pink-color: #fb498a;
+$section-color: #f0f8ff;
+
+
+%playfairdisplay-600 {
+  font-family: 'PlayfairDisplay-SemiBold', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+%roboto-400 {
+  font-family: 'RobotoCondensed-Regular', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+%roboto-700 {
+  font-family: 'RobotoCondensed-Bold', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+%btn {
+  color: #fff;
+  background-color: $accent-color;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  @extend %roboto-700;
+  border: none;
+}

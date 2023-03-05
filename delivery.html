@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury-ресторан</title>
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__image" src="images/logo.png" alt="логотип">
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="index.html">
+                Головна
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="menu.html">
+                Меню
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#about">
+                Про нас
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="delivery.html">
+                Доставка
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="contacts.html">
+                Контакти
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">
+            <span class="user-nav__num">3</span>
+            <img class="user-nav__img" src="images/icons/cart.png" alt="іконка кошик">
+          </a>
+          <a class="user-nav__btn" href="#">Забронювати стіл</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="top" style="background-image: url(images/reservation/bg.jpg);">
+      <div class="container">
+        <h2 class="top__title title">
+          Доставка з ресторану
+        </h2>
+      </div>
+    </section>
+
+    <section class="delivery">
+      <div class="container">
+        <div class="delivery__inner">
+          <button class="delivery__filters-btn">
+            <img class="delivery__filters-img" src="images/icons/filters.svg" alt="">
+          </button>
+          <div class="delivery__filters filters">
+            <div class="filters-category">
+              <h5 class="filters-title">Меню</h5>
+              <button class="filters-category__btn">
+                <img class="filters-category__img" src="images/icons/icon-filters.png" alt="">
+                <p class="filters-category__text">
+                  Салати
+                </p>
+              </button>
+              <button class="filters-category__btn">
+                <img class="filters-category__img" src="images/icons/icon-filters.png" alt="">
+                <p class="filters-category__text">
+                  Супи
+                </p>
+              </button>
+              <button class="filters-category__btn">
+                <img class="filters-category__img" src="images/icons/icon-filters.png" alt="">
+                <p class="filters-category__text">
+                  Десерти
+                </p>
+              </button>
+              <button class="filters-category__btn">
+                <img class="filters-category__img" src="images/icons/icon-filters.png" alt="">
+                <p class="filters-category__text">
+                  Напої
+                </p>
+              </button>
+              <button class="filters-category__btn">
+                <img class="filters-category__img" src="images/icons/icon-filters.png" alt="">
+                <p class="filters-category__text">
+                  Суші
+                </p>
+              </button>
+            </div>
+            <div class="filters-price">
+              <h5 class="filters-title">
+                Сортування по цінам
+              </h5>
+              <form class="filters-price__form" action="#">
+                <input class="filters-price__form-input" type="text" data-min="0" data-max="1000" data-from="0"
+                  data-to="150">
+                <label class="filters-price__label">
+                  <span>Ціни:
+                    <span class="filters-price__from"></span>грн.-
+                    <span class="filters-price__to"></span>грн.
+                  </span>
+                  <button class="filters-price__btn">Знайти</button>
+                </label>
+              </form>
+            </div>
+            <div class="delivery__newsletter">
+              <h4 class="delivery__newsletter-title">
+                Розсилка
+              </h4>
+              <p class="delivery__newsletter-text">
+                Підписуйтеся на нашу розсилку та отримуйте новини
+              </p>
+              <div class="delivery__newsletter-form">
+                <input class="delivery__newsletter-input" type="text" placeholder="Ваш email">
+                <button class="delivery__newsletter-btn" class="submit">
+                  Підписатися
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="delivery__content">
+            <h2 class="delivery__title title">Обрати страву</h2>
+            <div class="delivery__content-inner">
+              <div class="delivery__content-box">
+                <div class="delivery__content-box__info">
+                  <a class="delivery__content-link" href="#">
+                    <img class="delivery__content-img" src="images/menu/1.jpg" alt="">
+                  </a>
+                  <div class="delivery__content-text">
+                    <h5 class="delivery__content-title">
+                      Запечена картоплая з овочами
+                    </h5>
+                    <span class="delivery__content-price">
+                      190грн.
+                    </span>
+                  </div>
+                  <div class="delivery__content-box__link">
+                    <div class="delivery__content-box__inner">
+                      <a class="delivery__content-link__cart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_cart.png" alt="">
+                      </a>
+                      <a class="delivery__content-link__heart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_wishlist.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="delivery__content-box">
+                <div class="delivery__content-box__info">
+                  <a class="delivery__content-link" href="#">
+                    <img class="delivery__content-img" src="images/menu/2.jpg" alt="">
+                  </a>
+                  <div class="delivery__content-text">
+                    <h5 class="delivery__content-title">
+                      Салат з овочами
+                    </h5>
+                    <span class="delivery__content-price">
+                      150грн.
+                    </span>
+                  </div>
+                  <div class="delivery__content-box__link">
+                    <div class="delivery__content-box__inner">
+                      <a class="delivery__content-link__cart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_cart.png" alt="">
+                      </a>
+                      <a class="delivery__content-link__heart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_wishlist.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="delivery__content-box">
+                <div class="delivery__content-box__info">
+                  <a class="delivery__content-link" href="#">
+                    <img class="delivery__content-img" src="images/menu/5.jpg" alt="">
+                  </a>
+                  <div class=" delivery__content-text">
+                    <h5 class="delivery__content-title">
+                      М'ясо з кароплею
+                    </h5>
+                    <span class="delivery__content-price">
+                      250грн.
+                    </span>
+                    <div class="delivery__content-box__link">
+                      <div class="delivery__content-box__inner">
+                        <a class="delivery__content-link__cart" href="#">
+                          <img class="delivery__content-link__img" src="images/icons/icon_cart.png" alt="">
+                        </a>
+                        <a class="delivery__content-link__heart" href="#">
+                          <img class="delivery__content-link__img" src="images/icons/icon_wishlist.png" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="delivery__content-box">
+                <div class="delivery__content-box__info">
+                  <a class="delivery__content-link" href="#">
+                    <img class="delivery__content-img" src="images/menu/4.jpg" alt="">
+                  </a>
+                  <div class="delivery__content-text">
+                    <h5 class="delivery__content-title">
+                      Салат з овочами
+                    </h5>
+                    <span class="delivery__content-price">
+                      190грн.
+                    </span>
+                  </div>
+                  <div class="delivery__content-box__link">
+                    <div class="delivery__content-box__inner">
+                      <a class="delivery__content-link__cart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_cart.png" alt="">
+                      </a>
+                      <a class="delivery__content-link__heart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_wishlist.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="delivery__content-box">
+                <div class="delivery__content-box__info">
+                  <a class="delivery__content-link" href="#">
+                    <img class="delivery__content-img" src="images/menu/5.jpg" alt="">
+                  </a>
+                  <div class="delivery__content-text">
+                    <h5 class="delivery__content-title">
+                      М'ясо з картоплею
+                    </h5>
+                    <span class="delivery__content-price">
+                      190грн.
+                    </span>
+                  </div>
+                  <div class="delivery__content-box__link">
+                    <div class="delivery__content-box__inner">
+                      <a class="delivery__content-link__cart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_cart.png" alt="">
+                      </a>
+                      <a class="delivery__content-link__heart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_wishlist.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="delivery__content-box">
+                <div class="delivery__content-box__info">
+                  <a class="delivery__content-link" href="#">
+                    <img class="delivery__content-img" src="images/menu/6.jpg" alt="">
+                  </a>
+                  <div class="delivery__content-text">
+                    <h5 class="delivery__content-title">
+                      Паста з морепродуктами
+                    </h5>
+                    <span class="delivery__content-price">
+                      290грн.
+                    </span>
+                  </div>
+                  <div class="delivery__content-box__link">
+                    <div class="delivery__content-box__inner">
+                      <a class="delivery__content-link__cart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_cart.png" alt="">
+                      </a>
+                      <a class="delivery__content-link__heart" href="#">
+                        <img class="delivery__content-link__img" src="images/icons/icon_wishlist.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="info">
+      <div class="container">
+        <div class="info__inner">
+          <h5 class="info__title title">
+            Ми працюємо
+          </h5>
+          <div class="info__box-text__left">
+            <p class="info__box-desc animate__animated wow animate__fadeInUp">
+              Понеділок-п'ятниця
+            </p>
+            <p class="info__box-desc__color animate__animated wow animate__fadeInUp">
+              з 10:00 до 22:00
+            </p>
+          </div>
+          <div class="info__box-text animate__animated wow animate__fadeInUp">
+            <p class="info__box-desc animate__animated wow animate__fadeInUp">
+              Субота-неділя
+            </p>
+            <p class="info__box-desc__color">
+              з 10:00 до 23:00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__info">
+          <h4 class="footer__info-title">Інформація</h4>
+          <ul class="footer__info-list">
+            <li class="footer__info-item">
+              <a class="footer__info-link" href="#">
+                Головна
+              </a>
+            </li>
+            <li class="footer__info-item">
+              <a class="footer__info-link" href="#">
+                Меню
+              </a>
+            </li>
+            <li class="footer__info-item">
+              <a class="footer__info-link" href="#">
+                Про нас
+              </a>
+            </li>
+            <li class="footer__info-item">
+              <a class="footer__info-link" href="#">
+                Доставка
+              </a>
+            </li>
+            <li class="footer__info-item">
+              <a class="footer__info-link" href="#">
+                Контакти
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info-newsletter">
+          <h4 class="footer__info-title">
+            Підписатись на розсилку
+          </h4>
+          <p class="footer__info-text">
+            Підписуйтеся на нашу розсилку та отримуйте новини
+          </p>
+          <div class="footer__info-form">
+            <input class="footer__info-input" type="text" placeholder="Ваш email">
+            <button class="footer__info-btn" class="submit">
+              Підписатися
+            </button>
+          </div>
+          <div class="footer-social">
+            <a class="footer-social__link-facebook" href="#">
+              <img class="footer-social__link-img" src="images/icons/facebook.svg" alt="">
+            </a>
+            <a class="footer-social__link-twitter" href="#">
+              <img class="footer-social__link-img" src="images/icons/twitter.svg" alt="">
+            </a>
+            <a class="footer-social__link-google" href="#">
+              <img class="footer-social__link-img" src="images/icons/google+.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="footer__info-app">
+          <h4 class="footer__info-title">
+            Наші додатки
+          </h4>
+          <a class="footer__info-app__link" href="#">
+            <img class="footer__info-image" src="images/app-store.png" alt="">
+          </a>
+          <a class="footer__info-app__link" href="#">
+            <img class="footer__info-image" src="images/app-google.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

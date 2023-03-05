@@ -1,0 +1,754 @@
+@media (max-width:1200px) {
+  .menu-box__inner {
+    justify-content: center;
+    gap: 20px 0;
+  }
+
+  .form {
+    &-box__input {
+      width: 230px;
+    }
+
+    &__btn {
+      margin-right: 15px;
+      padding: 15px 10px;
+    }
+
+    &__link {
+      font-size: 22px;
+    }
+  }
+
+
+}
+
+
+
+@media (max-width:1100px) {
+  .slider {
+    &__item {
+      min-height: 600px;
+    }
+
+    &__content {
+      padding: 120px 0 0 60px;
+    }
+
+    &__text {
+      font-size: 44px;
+      line-height: 50px;
+      max-width: 535px;
+    }
+
+  }
+
+  .form {
+    flex-wrap: wrap;
+    padding-top: 0;
+
+    &__text {
+      display: block;
+
+    }
+
+    &__desc {
+      width: auto;
+      padding: 20px 0;
+      border-right: none;
+    }
+
+    &__link {
+      padding-left: 0;
+      text-align: center;
+      display: block;
+    }
+
+    &__box-input {
+      width: 100%;
+    }
+
+    &__btn {
+      width: 100%;
+    }
+  }
+
+  .info {
+    &__inner::after {
+      content: "";
+      position: absolute;
+      top: -145px;
+
+    }
+
+    &__title {
+      margin-right: 45px;
+    }
+  }
+
+  .contacts {
+
+    &__box-form,
+    &__box {
+      width: 450px;
+    }
+
+    &__form-textarea {
+      width: 250px;
+    }
+
+    &__box {
+      padding: 90px 45px;
+    }
+  }
+
+  .delivery {
+    &__content-inner {
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+
+  }
+
+
+}
+
+@media (max-width:950px) {
+  .header {
+    padding: 15px 0;
+
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+
+    }
+  }
+
+  .footer {
+    &__inner {
+      gap: 30px;
+    }
+  }
+
+  .form-book {
+    flex-wrap: wrap;
+
+    &__input {
+      width: 300px;
+    }
+  }
+
+
+
+  .contacts {
+
+    &__inner {
+      display: block;
+
+    }
+
+    &__box-form,
+    &__box {
+      width: 100%;
+    }
+
+    &__form-label,
+    &-form__input,
+    &__form-textarea {
+      width: 100%;
+    }
+  }
+
+}
+
+
+@media (max-width:850px) {
+  .slider {
+    &__item {
+      min-height: 550px;
+    }
+
+    &__content {
+      padding: 150px 0 0 45px;
+    }
+
+    &__text {
+      font-size: 35px;
+      line-height: 40px;
+      max-width: 355px;
+    }
+  }
+
+  .about {
+    &__inner {
+      display: block;
+    }
+
+    &__info-text {
+      max-width: 100%;
+    }
+  }
+
+  .menu-tabs {
+    &__content-inner {
+      display: block;
+    }
+
+    &__content {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .reviews-slider {
+    &__content {
+      padding-top: 40px;
+    }
+
+    &__title {
+      padding-top: 10px;
+    }
+  }
+
+  .reserve {
+    &__inner {
+      display: block;
+    }
+  }
+
+  .info {
+    &__inner {
+      display: block;
+      text-align: center;
+    }
+
+    &__title {
+      margin: 0 0 30px;
+    }
+
+    &__box-text__left {
+      margin: 0 0 30px;
+    }
+  }
+
+  .delivery {
+    padding-top: 40px;
+
+    &__inner {
+      display: block;
+
+    }
+
+    &__filters {
+      width: 100%;
+      display: none;
+      position: absolute;
+      top: 137px;
+      left: 0;
+      z-index: 50;
+      background-color: #ffff;
+    }
+
+    &__filters-btn {
+      display: block;
+      border: none;
+      background-color: $accent-color;
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      position: fixed;
+      right: 0;
+      z-index: 5;
+      bottom: 50px;
+      z-index: 60;
+
+    }
+
+    &__newsletter::after {
+      content: "";
+      display: none;
+
+    }
+
+    &__newsletter-form::after {
+      content: "";
+      position: absolute;
+      left: 180px;
+    }
+
+    &__title {
+      margin-top: 30px;
+    }
+  }
+
+
+}
+
+
+@media (max-width:670px) {
+  .slider {
+    &__item {
+      min-height: 520px;
+      background-position: center;
+      background-size: cover;
+    }
+
+    &__content {
+      padding: 150px 0 0 45px;
+    }
+
+    &__text {
+      font-size: 27px;
+      line-height: 40px;
+      max-width: 338px;
+    }
+  }
+
+  .slick-arrow {
+    top: 50%;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .menu-tabs {
+    &__top {
+      flex-direction: column;
+    }
+  }
+
+  .menu-box__text-info {
+    flex-direction: column;
+  }
+
+  .menu-box__phone {
+    margin-right: 0;
+  }
+
+  .menu-box__price {
+    margin-right: 0;
+  }
+
+  .menu-box__text-about {
+    margin-right: 0;
+  }
+
+  .form-book {
+    display: block;
+
+    &__input {
+      width: 100%;
+    }
+
+    &__btn {
+      width: 100%;
+
+    }
+  }
+
+  .about {
+    padding-top: 40px;
+  }
+
+  .speciality__title {
+    text-align: left;
+  }
+
+
+  .delivery {
+    &__content-inner {
+      grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    &__content-link__cart,
+    &__content-link__heart {
+      transform: translateY(-650%);
+    }
+  }
+
+  .top {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width:550px) {
+  .menu {
+    margin-left: auto;
+
+    &__list {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: -335px;
+      background-color: #fff;
+      display: block;
+      transition: all .3s;
+      z-index: 10;
+
+      &.menu__list--active {
+        top: 80px;
+
+      }
+
+      &.menu__list--active {
+        top: 137px;
+      }
+    }
+
+
+
+    &__list-item+.menu__list-item {
+      padding-left: 0;
+    }
+
+    &__btn {
+      position: relative;
+      left: 0;
+      display: block;
+
+      &.menu__list--active span {
+        transform: scale(0);
+      }
+
+      &.menu__list--active:before {
+        transform: rotate(45deg);
+        top: 10px;
+      }
+
+      &.menu__list--active:after {
+        transform: rotate(-45deg);
+        bottom: 10px;
+      }
+    }
+
+    &__list-link {
+      display: block;
+      padding: 15px 0;
+      text-align: center;
+
+    }
+  }
+
+  .footer {
+    &__info-input {
+      width: 100%;
+    }
+
+    &__info-btn {
+      width: 100%;
+    }
+  }
+
+  .slider {
+    &__item {
+      min-height: 450px;
+
+    }
+
+
+    &__text {
+      font-size: 25px;
+      line-height: 30px;
+      max-width: 230px;
+    }
+  }
+
+  .reviews-slider {
+    &__desc {
+      max-width: 280px;
+      padding-top: 25px;
+    }
+  }
+
+
+  .top {
+    &__title {
+      font-size: 30px;
+      display: inline-block;
+      width: 200px;
+    }
+  }
+
+  .book {
+    &__title {
+      font-size: 30px;
+    }
+  }
+
+  .info {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__box-desc__color {
+      font-size: 24px;
+    }
+  }
+
+  .contacts {
+    padding-top: 80px;
+  }
+}
+
+
+
+@media (max-width:450px) {
+
+  .slider {
+    &__item {
+      min-height: 420px;
+      background-position: bottom;
+
+    }
+
+  }
+
+  .about {
+    padding: 40px 0;
+
+    &__image-box {
+      display: block;
+      width: 270px;
+      margin: 0 auto;
+    }
+
+    &__info-btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .menu-box {
+    &__info {
+      width: 300px;
+    }
+
+    &__text {
+      max-width: 270px;
+      padding-bottom: 15px;
+    }
+
+    &__phone {
+      font-size: 22px;
+    }
+
+    &__price {
+      font-size: 30px;
+    }
+  }
+
+
+  .menu-info {
+    &::before {
+      content: '';
+      position: absolute;
+      background-image: url('../images/special/bg.png');
+      background-repeat: no-repeat;
+      left: -80px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -16px;
+      left: -77px;
+    }
+  }
+
+  .menu-tabs {
+    &__top {
+      gap: 10px;
+    }
+
+    &__content-price {
+      font-size: 23px;
+    }
+
+    &__content-link {
+      padding: 15px 20px;
+    }
+
+    &__top-item--active::before {
+      display: none;
+    }
+
+    &__top-box>a {
+      font-size: 19px;
+    }
+  }
+
+  .reserve {
+    padding: 30px 0 20px;
+  }
+
+  .reviews-slider {
+    &__desc {
+      max-width: 245px;
+    }
+
+  }
+
+  .book {
+    padding-top: 45px;
+
+    &__text {
+      margin-bottom: 20px;
+    }
+  }
+
+  .menu-page {
+    padding: 10px 0 30px;
+  }
+
+  .speciality {
+    &__title {
+      font-size: 28px;
+    }
+  }
+
+  .contacts {
+    &__box {
+      padding: 35px 15px;
+    }
+
+    &__email-link,
+    &__phone-link,
+    &__address {
+      font-size: 18px;
+    }
+
+    &__text-info {
+      font-size: 29px;
+    }
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+}
+
+@media (max-width:350px) {
+  .user-nav {
+    &__img {
+      margin-right: 35px;
+    }
+
+    &__btn {
+      font-size: 11px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 155px;
+
+      }
+    }
+
+  }
+
+  .footer {
+    padding: 25px 0;
+  }
+
+  .slider {
+    &__item {
+      min-height: 356px;
+      background-position: bottom;
+
+    }
+
+    &__text {
+      font-size: 19px;
+      line-height: 21px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .about {
+    padding: 40px 0;
+
+    &__info-btn {
+      padding: 15px 10px;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .menu-tabs {
+    &__content-price {
+      font-size: 19px;
+    }
+
+    &__content-inner {
+      margin-bottom: 25px;
+    }
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .menu-box {
+    &__phone {
+      font-size: 20px;
+    }
+
+    &__price {
+      font-size: 25px;
+    }
+  }
+
+  .reserve {
+    padding: 10px 0 20px;
+  }
+
+  .speciality {
+    &__box {
+      padding: 120px 0;
+    }
+  }
+
+}
+
+@media (max-width:320px) {
+  .menu-box {
+
+    &__info-img {
+      margin-bottom: 20px;
+      height: 235px;
+    }
+
+    &__text {
+      margin-bottom: 0;
+    }
+  }
+
+  .special-menu__title {
+    font-size: 28px;
+    line-height: 28px;
+    padding-top: 40px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .info {
+    &__inner::after {
+      content: "";
+      position: absolute;
+      right: 30px;
+
+    }
+
+
+  }
+}
